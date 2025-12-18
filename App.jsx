@@ -1,7 +1,11 @@
-import PollingSystem from "./Full stack/PollingSystem";
-function App()
-{
-   return(<PollingSystem/>)
-}
-export default App
+import OnlineQuiz from "./Full stack/React/OnlineQuiz";
 
+function App() {
+  return (
+    <div>
+      <OnlineQuiz />
+    </div>
+  );
+}
+
+export default App;
